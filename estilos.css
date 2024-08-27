@@ -58,33 +58,28 @@ body {
 }
 
 #SobreMi {
-   display: flex;
-   align-items:start;
    margin: 0 auto;
    max-width: 1000px
 }
 
 #SobreMi h3 {
-  margin-right: 50px;
-  padding-top: 50px;
+  justify-content: left;
   white-space: nowrap;
   font-size: 20px;
   color: rgb(127, 62, 84);
 }
 
 .info{
-   margin-right: 20px;
-   padding-top: 50px;
    text-align: justify;
-   float: left;
+   margin: 0 auto;
+   max-width: 1000px
 }
 
 #SobreMi img {
    width: 20%;
    float: right;
-   margin: 10px;
-   padding-top: 60px;
-  
+   margin-right: 10px;
+   margin-left: 30px;
 }
 
 ros{
